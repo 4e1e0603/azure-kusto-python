@@ -200,7 +200,7 @@ str_stream = io.StringIO(str_sequence)
 client.ingest_from_stream(str_stream, ingestion_properties=ingestion_properties)
 
 ##################################################################
-##                NANAGED STREAMING INGEST                      ##
+##                MANAGED STREAMING INGEST                      ##
 ##################################################################
 
 # Managed streaming ingest client will try to use streaming ingestion for performance, but will fall back to queued ingestion if unable.
